@@ -12,15 +12,11 @@ class FirstVC: UIViewController, SecondVCDelegate {
     @IBOutlet private weak var fullNameLabel: UILabel!
     @IBOutlet private weak var nextVCButton: UIButton!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         nextVCButton.styleButton()
-        
     }
-    
     
     @IBAction private func nextVCButtonDidtap() {
         //        navigationController?.pushNextVC(nameVC: "\(SecondVC.self)")
